@@ -3,8 +3,8 @@ import './Header.css';
  
 export default function Header () {
     return (
-        <Header className='header'>
+        <header className='header'>
             <h2>To Do List</h2>
-        </Header>
+        </header>
     )
 }

@@ -33,7 +33,7 @@ export default function ToDoForm() {
           type="text"
           value={task}
           onChange={(e) => setTask(e.target.value)}
-          placeholder="Enter new task"
+          placeholder="Add new to do..."
           required
         />
         <button type="submit">Add</button>
